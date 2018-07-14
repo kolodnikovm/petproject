@@ -104,3 +104,6 @@ ENV/
 .vscode
 
 T3.txt
+
+# Settings
+local.py
