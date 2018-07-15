@@ -1,5 +1,12 @@
-_EXTRA_APPS = [
+_THIRD_PARTY_APPS = [
+    'friendship'
+]
+
+_MAIN_APPS = [
     'applications.users',
+    'applications.gifts',
+    'applications.squads',
+    'applications.wishlists',
 ]
 
 _CORE_APPS = [
@@ -11,4 +18,4 @@ _CORE_APPS = [
     'django.contrib.staticfiles',
 ]
 
-INSTALLED_APPS = _CORE_APPS + _EXTRA_APPS
+INSTALLED_APPS = _CORE_APPS + _MAIN_APPS + _THIRD_PARTY_APPS

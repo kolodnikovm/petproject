@@ -104,6 +104,13 @@ ENV/
 .vscode
 
 T3.txt
+issues.txt
 
 # Settings
 local.py
+
+# Pictures
+*.jpg
+*.jpeg
+*.png
+*.gif
