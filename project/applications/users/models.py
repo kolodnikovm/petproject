@@ -9,12 +9,3 @@ class User(AbstractUser):
 
     def __str__(self):
         return self.username
-
-
-class Friendship(models.Model):
-    pass
-
-
-class UserGroups(models.Model):
-    name = models.CharField(max_length=100)
-    # TODO Допилить группы

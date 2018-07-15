@@ -1,5 +1,5 @@
 _EXTRA_APPS = [
-    'users',
+    'applications.users',
 ]
 
 _CORE_APPS = [
